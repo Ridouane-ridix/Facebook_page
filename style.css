@@ -164,7 +164,6 @@ a{
         display: flex;
         justify-content: flex-start;
     }
-
     .birthdate-selectors{
         flex-direction: column;
         align-items: flex-start;
@@ -173,6 +172,11 @@ a{
         width: 100%;
         margin: 5px 0;
         }
-    
+    @media (max-width: 400px){
+        .Genre-section span{
+            width: 100%;
+        }
+        
+    }
     
 }
