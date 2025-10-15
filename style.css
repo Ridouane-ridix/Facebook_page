@@ -141,7 +141,7 @@ a{
     color: #0d6efd;
     text-decoration: none;
 }a:hover{
-    text-decoration: underline rgb(0, 0, 0); 
+    text-decoration: underline; 
  
 }
 .terms-section p{
