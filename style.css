@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif ;
-    background: #f5f6fa;
+    font-family:system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: #e9ebee ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +18,11 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08);
     }
 .card p{
     font-size: 14px;
-    color: #ccc;
+    color:  #1c1e21;
     margin-top: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -30,14 +31,12 @@ body{
 
 .card h1{
     font-size: 24px;
-    color: #000000;
+    color: #1c1e21;
     font-weight: bold;
     text-align: center;
 }
 hr{
-    border: solid 1px #ccc;
- 
-    background: #ccc;
+    border: solid 1px  #1c1e21;
     margin: 20px 0;
 }
 
@@ -51,20 +50,20 @@ hr{
 
 }
 .name-section input{
-    border: 1px solid #ccc;
+    border: 1px solid #e9ebee;
     border-radius: 5px;
     padding: 0 15px;
     font-size: 16px;
     height: 40px;    
     margin-bottom: 15px;
-    outline-color: #000000;
+    outline-color:  rgba(0, 0, 0, 0.08);
 }
 .input-section{
     display: flex;
 }
 .input-section input{
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #e9ebee;
     border-radius: 5px;
     padding: 0 15px;
     font-size: 16px;    
@@ -79,9 +78,9 @@ hr{
     width: 100%;
     padding: 10px 15px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #e9ebee;
     font-size: 16px;
-    outline-color: #000000;
+    outline-color:  rgba(0, 0, 0, 0.08);
 
 }
 .birthdate-selectors {
@@ -97,12 +96,12 @@ hr{
 .birthdate-selectors select {
     width: 32%;
     height: 40px;
-    border: 1px solid #ccc;
+    border: 1px solid #e9ebee;
     border-radius: 5px;
     padding: 0 10px;
     font-size: 16px;    
     background-color: #a9a9a921;
-    outline-color: #000000;
+    outline-color:  rgba(0, 0, 0, 0.08);
     }
 .Genre-section{
     display: flex;
@@ -119,7 +118,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px #ccc;
+    border: solid 1px #e9ebee;
     padding: 8px 12px;
     border-radius:  4px;
     flex: 1;
@@ -130,7 +129,7 @@ button{
     height: 40px;
     border: none;
     border-radius: 5px;
-    background: #0fa142;
+    background: #42b72a;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -138,7 +137,7 @@ button{
     margin: 10px 0;
 }
 a{
-    color: #0d6efd;
+    color: #1877f2;
     text-decoration: none;
 }a:hover{
     text-decoration: underline; 
@@ -184,5 +183,6 @@ a{
         }
         
     }
+    
     
 }
