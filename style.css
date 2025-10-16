@@ -11,6 +11,12 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .card{
     width: 400px;
     background: #fff;   
@@ -177,12 +183,30 @@ a{
         width: 100%;
         margin: 5px 0;
         }
-    @media (max-width: 400px){
+    label{
+        color: #777;
+        margin-bottom: -10px;
+    }
+    @media (max-width: 425px){
         .Genre-section span{
-            width: 100%;
+            width: 60%;
+        }
+        .card{
+            width: 90%;
         }
         
     }
     
-    
+    @media (max-width: 390px){
+        .Genre-section span{
+            width: 50%;
+        }
+        
+    }
+    @media (max-width: 320px){
+        .Genre-section span{
+            width: 60%;
+        }
+        
+    }
 }
